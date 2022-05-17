@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://www.teahub.io/photos/full/208-2081221_full-hd-colorful-background.jpg");
+}
+img{
+    width: 125px;
+    height: 125px;
+    border-radius: 45px;
+    border-color: slateblue;
+    border-style: double;
+}
+.primary{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top{
+    flex: 1 1 auto;
+}
+.mid{
+    flex: 1 1 auto;
+    
+}
+.bot{
+    flex: 1 1 auto;
+    text-align: center;
+}
+h2,h1,h3,h4{
+    
+    text-align: center;
+}
+h2{
+    color: slateblue;
+}
+h1,h3,h4,p,li{
+    
+   color: aliceblue;
+}
+
+p{
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.lastBot{
+    text-align: center;
+}
